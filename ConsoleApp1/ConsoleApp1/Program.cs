@@ -8,6 +8,12 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Test");
+            int num = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                num += num;
+            }
+            Console.WriteLine(num);
         }
     }
 }
