@@ -14,6 +14,8 @@ namespace ConsoleApp1
                 num += num;
             }
             Console.WriteLine(num);
+
+            Console.WriteLine("ASDASDASD");
         }
     }
 }
